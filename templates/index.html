@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Image and Text Uploader</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      background: #f9f9f9;
+    }
+    .container {
+      background: #fff;
+      padding: 24px 32px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+      max-width: 400px;
+      margin: auto;
+    }
+    .form-group {
+      margin-bottom: 18px;
+    }
+    label {
+      display: block;
+      margin-bottom: 6px;
+      font-weight: bold;
+    }
+    input[type="text"], input[type="file"] {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+    }
+    .preview {
+      margin-top: 16px;
+      text-align: center;
+    }
+    .preview img {
+      max-width: 100%;
+      max-height: 200px;
+      border-radius: 6px;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Upload Image & Enter Text</h2>
+    <form id="myForm">
+      <div class="form-group">
+        <label for="imageInput">Select Image</label>
+        <input type="file" id="imageInput" accept="image/*">
+      </div>
+      <div class="form-group">
+        <label for="text1">First Text</label>
+        <input type="text" id="text1" placeholder="Enter first text">
+      </div>
+      <div class="form-group">
+        <label for="text2">Second Text</label>
+        <input type="text" id="text2" placeholder="Enter second text">
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+    <div class="preview" id="preview"></div>
+  </div>
+
+  <script>
+    const form = document.getElementById('myForm');
+    const imageInput = document.getElementById('imageInput');
+    const preview = document.getElementById('preview');
+
+    imageInput.addEventListener('change', function() {
+      preview.innerHTML = '';
+      const file = imageInput.files[0];
+      if (file) {
+        const img = document.createElement('img');
+        img.src = URL.createObjectURL(file);
+        preview.appendChild(img);
+      }
+    });
+
+    form.addEventListener('submit', function(e) {
+      e.preventDefault();
+      const text1 = document.getElementById('text1').value;
+      const text2 = document.getElementById('text2').value;
+      let html = '';
+      if (imageInput.files[0]) {
+        html += `<img src="${URL.createObjectURL(imageInput.files[0])}" alt="Preview">`;
+      }
+      html += `<p><strong>First Text:</strong> ${text1}</p>`;
+      html += `<p><strong>Second Text:</strong> ${text2}</p>`;
+      preview.innerHTML = html;
+    });
+  </script>
+</body>
+</html>

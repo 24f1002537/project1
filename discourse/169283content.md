@@ -1,0 +1,782 @@
+```{
+  "post_stream": {
+    "posts": []
+  },
+  "suggested_topics": [
+    {
+      "id": 176077,
+      "title": "Project1 - Virtual TA - Discussion Thread [TDS May 2025]",
+      "fancy_title": "Project1 - Virtual TA - Discussion Thread [TDS May 2025]",
+      "slug": "project1-virtual-ta-discussion-thread-tds-may-2025",
+      "posts_count": 317,
+      "reply_count": 207,
+      "highest_post_number": 326,
+      "image_url": null,
+      "created_at": "2025-05-22T21:36:32.840Z",
+      "last_posted_at": "2025-06-13T16:29:37.386Z",
+      "bumped": true,
+      "bumped_at": "2025-06-13T16:29:37.386Z",
+      "archetype": "regular",
+      "unseen": false,
+      "last_read_post_number": 53,
+      "unread": 0,
+      "new_posts": 273,
+      "unread_posts": 273,
+      "pinned": true,
+      "unpinned": null,
+      "excerpt": "Please post any questions related to Project 1 \nPlease use markdown code formatting (fenced code blocks beginning with ```) when sharing code (rather than screenshots). It’s easier for us to copy-paste and test. \nDeadlin&hellip;",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "notification_level": 2,
+      "bookmarked": false,
+      "liked": false,
+      "tags": [
+        "term2-2025",
+        "tds-project-1"
+      ],
+      "tags_descriptions": {},
+      "like_count": 112,
+      "views": 2207,
+      "category_id": 34,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 15651,
+            "username": "Jivraj",
+            "name": "Jivraj Singh Shekhawat",
+            "avatar_template": "https://avatars.discourse-cdn.com/v4/letter/j/b9bd4f/{size}.png",
+            "primary_group_name": "ds-students",
+            "flair_name": "ds-students",
+            "flair_group_id": 294,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 16094,
+            "username": "carlton",
+            "name": "Carlton D'Silva",
+            "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/carlton/{size}/56317_2.png",
+            "primary_group_name": "ds-students",
+            "flair_name": "ds-students",
+            "flair_group_id": 294,
+            "trust_level": 3
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 31631,
+            "username": "Karvy",
+            "name": "Karvy Singh",
+            "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/karvy/{size}/67600_2.png",
+            "primary_group_name": "ds-students",
+            "flair_name": "ds-students",
+            "flair_group_id": 294,
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 24955,
+            "username": "vanshbordia",
+            "name": "Vansh Bordia",
+            "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/vanshbordia/{size}/70391_2.png",
+            "primary_group_name": "ds-students",
+            "flair_name": "ds-students",
+            "flair_group_id": 294,
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 33536,
+            "username": "Bhagatsidhu2007",
+            "name": "Bhagat Singh Sidhu",
+            "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/bhagatsidhu2007/{size}/77590_2.png",
+            "primary_group_name": "ds-students",
+            "flair_name": "ds-students",
+            "flair_group_id": 294,
+            "trust_level": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": 179104,
+      "title": "Drop Course Window",
+      "fancy_title": "Drop Course Window",
+      "slug": "drop-course-window",
+      "posts_count": 1,
+      "reply_count": 0,
+      "highest_post_number": 1,
+      "image_url": null,
+      "created_at": "2025-06-13T15:28:35.695Z",
+      "last_posted_at": "2025-06-13T15:28:35.924Z",
+      "bumped": true,
+      "bumped_at": "2025-06-13T15:28:35.924Z",
+      "archetype": "regular",
+      "unseen": true,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [
+        "clarification",
+        "diploma-level",
+        "term2-2025"
+      ],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 15,
+      "category_id": 34,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest single",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 22658,
+            "username": "23f2005404",
+            "name": "Nitin Dixit ",
+            "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/23f2005404/{size}/67257_2.png",
+            "primary_group_name": "ds-students",
+            "flair_name": "ds-students",
+            "flair_group_id": 294,
+            "trust_level": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": 179103,
+      "title": "TDS Project 1 2025",
+      "fancy_title": "TDS Project 1 2025",
+      "slug": "tds-project-1-2025",
+      "posts_count": 1,
+      "reply_count": 0,
+      "highest_post_number": 1,
+      "image_url": null,
+      "created_at": "2025-06-13T15:12:53.522Z",
+      "last_posted_at": "2025-06-13T15:12:53.829Z",
+      "bumped": true,
+      "bumped_at": "2025-06-13T15:12:53.829Z",
+      "archetype": "regular",
+      "unseen": true,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [
+        "diploma-level",
+        "term2-2025",
+        "tds-project-1"
+      ],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 21,
+      "category_id": 34,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest single",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 38160,
+            "username": "Bipin",
+            "name": "Bipin Raj ",
+            "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/bipin/{size}/120114_2.png",
+            "primary_group_name": "ds-students",
+            "flair_name": "ds-students",
+            "flair_group_id": 294,
+            "trust_level": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": 179010,
+      "title": "Hoe to get disclosure api",
+      "fancy_title": "Hoe to get disclosure api",
+      "slug": "hoe-to-get-disclosure-api",
+      "posts_count": 3,
+      "reply_count": 1,
+      "highest_post_number": 3,
+      "image_url": null,
+      "created_at": "2025-06-12T18:04:05.077Z",
+      "last_posted_at": "2025-06-13T12:38:08.487Z",
+      "bumped": true,
+      "bumped_at": "2025-06-13T12:38:08.487Z",
+      "archetype": "regular",
+      "unseen": true,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [
+        "clarification",
+        "term2-2025"
+      ],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 46,
+      "category_id": 34,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 14785,
+            "username": "Mohit173",
+            "name": "Mohit dey",
+            "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/mohit173/{size}/121666_2.png",
+            "primary_group_name": "ds-students",
+            "flair_name": "ds-students",
+            "flair_group_id": 294,
+            "trust_level": 0
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 25754,
+            "username": "24f1001200",
+            "name": "K Gokul ",
+            "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/24f1001200/{size}/68306_2.png",
+            "primary_group_name": "ds-students",
+            "flair_name": "ds-students",
+            "flair_group_id": 294,
+            "trust_level": 0
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 15651,
+            "username": "Jivraj",
+            "name": "Jivraj Singh Shekhawat",
+            "avatar_template": "https://avatars.discourse-cdn.com/v4/letter/j/b9bd4f/{size}.png",
+            "primary_group_name": "ds-students",
+            "flair_name": "ds-students",
+            "flair_group_id": 294,
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": 179034,
+      "title": "A humble request to the TDS Course Team",
+      "fancy_title": "A humble request to the TDS Course Team",
+      "slug": "a-humble-request-to-the-tds-course-team",
+      "posts_count": 2,
+      "reply_count": 0,
+      "highest_post_number": 2,
+      "image_url": null,
+      "created_at": "2025-06-13T00:34:35.191Z",
+      "last_posted_at": "2025-06-13T00:44:49.661Z",
+      "bumped": true,
+      "bumped_at": "2025-06-13T00:44:49.661Z",
+      "archetype": "regular",
+      "unseen": true,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [
+        "term2-2025",
+        "tds-project-1"
+      ],
+      "tags_descriptions": {},
+      "like_count": 9,
+      "views": 71,
+      "category_id": 34,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 19426,
+            "username": "23f1000917",
+            "name": "Person",
+            "avatar_template": "https://avatars.discourse-cdn.com/v4/letter/2/58956e/{size}.png",
+            "primary_group_name": "ds-students",
+            "flair_name": "ds-students",
+            "flair_group_id": 294,
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 13458,
+            "username": "Rajesh3034",
+            "name": "Rajesh Prasad Patel",
+            "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/rajesh3034/{size}/13959_2.png",
+            "primary_group_name": "ds-students",
+            "flair_name": "ds-students",
+            "flair_group_id": 294,
+            "trust_level": 1
+          }
+        }
+      ]
+    }
+  ],
+  "id": 169283,
+  "related_topics": [
+    {
+      "id": 109888,
+      "title": "Weekly Assignment 6a",
+      "fancy_title": "Weekly Assignment 6a",
+      "slug": "weekly-assignment-6a",
+      "posts_count": 6,
+      "reply_count": 4,
+      "highest_post_number": 6,
+      "image_url": "https://europe1.discourse-cdn.com/flex013/uploads/iitm/original/3X/d/e/dedb688ab94839bead7ad828c83f154884e98b1a.png",
+      "created_at": "2023-11-20T19:17:53.171Z",
+      "last_posted_at": "2023-12-11T08:03:00.504Z",
+      "bumped": true,
+      "bumped_at": "2023-12-11T08:03:00.504Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [
+        "clarification"
+      ],
+      "tags_descriptions": {},
+      "like_count": 1,
+      "views": 80,
+      "category_id": 34,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 12434,
+            "username": "22ds2000105",
+            "name": "Alagammai Deepa",
+            "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/22ds2000105/{size}/12613_2.png",
+            "primary_group_name": "ds-students",
+            "flair_name": "ds-students",
+            "flair_group_id": 294,
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 6616,
+            "username": "aaruni-kale",
+            "name": "Aaruni Kale",
+            "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/aaruni-kale/{size}/53900_2.png",
+            "primary_group_name": "ds-students",
+            "flair_name": "ds-students",
+            "flair_group_id": 294,
+            "trust_level": 2
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 2913,
+            "username": "Yashraj",
+            "name": "Yash Raj Singh ",
+            "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/yashraj/{size}/1258_2.png",
+            "primary_group_name": "ds-students",
+            "flair_name": "ds-students",
+            "flair_group_id": 294,
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 3009,
+            "username": "Amit1",
+            "name": "Amit Kumar Gupta",
+            "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/amit1/{size}/30210_2.png",
+            "primary_group_name": "ds-students",
+            "flair_name": "ds-students",
+            "flair_group_id": 294,
+            "trust_level": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": 111816,
+      "title": "Week 6 a TDS assignment",
+      "fancy_title": "Week 6 a TDS assignment",
+      "slug": "week-6-a-tds-assignment",
+      "posts_count": 3,
+      "reply_count": 1,
+      "highest_post_number": 3,
+      "image_url": "https://europe1.discourse-cdn.com/flex013/uploads/iitm/original/3X/d/e/dedb688ab94839bead7ad828c83f154884e98b1a.png",
+      "created_at": "2023-12-12T05:28:34.314Z",
+      "last_posted_at": "2023-12-15T14:46:57.816Z",
+      "bumped": true,
+      "bumped_at": "2023-12-15T14:46:57.816Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [
+        "clarification"
+      ],
+      "tags_descriptions": {},
+      "like_count": 1,
+      "views": 83,
+      "category_id": 34,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster, Most Recent Poster",
+          "user": {
+            "id": 12434,
+            "username": "22ds2000105",
+            "name": "Alagammai Deepa",
+            "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/22ds2000105/{size}/12613_2.png",
+            "primary_group_name": "ds-students",
+            "flair_name": "ds-students",
+            "flair_group_id": 294,
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 6616,
+            "username": "aaruni-kale",
+            "name": "Aaruni Kale",
+            "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/aaruni-kale/{size}/53900_2.png",
+            "primary_group_name": "ds-students",
+            "flair_name": "ds-students",
+            "flair_group_id": 294,
+            "trust_level": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": 151850,
+      "title": "Graded Assignment Issue",
+      "fancy_title": "Graded Assignment Issue",
+      "slug": "graded-assignment-issue",
+      "posts_count": 14,
+      "reply_count": 10,
+      "highest_post_number": 14,
+      "image_url": null,
+      "created_at": "2024-10-10T11:50:57.428Z",
+      "last_posted_at": "2024-10-11T09:16:14.190Z",
+      "bumped": true,
+      "bumped_at": "2024-10-11T09:16:14.190Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [
+        "operational"
+      ],
+      "tags_descriptions": {},
+      "like_count": 1,
+      "views": 116,
+      "category_id": 34,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 17597,
+            "username": "22f3000757",
+            "name": "Anshu Raj",
+            "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/22f3000757/{size}/67246_2.png",
+            "primary_group_name": "ds-students",
+            "flair_name": "ds-students",
+            "flair_group_id": 294,
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 17066,
+            "username": "23f1000966",
+            "name": "Aryan Thakur",
+            "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/23f1000966/{size}/67154_2.png",
+            "primary_group_name": "ds-students",
+            "flair_name": "ds-students",
+            "flair_group_id": 294,
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 23427,
+            "username": "23f2003080",
+            "name": "Vinay Kasaudhan ",
+            "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/23f2003080/{size}/87862_2.png",
+            "primary_group_name": "ds-students",
+            "flair_name": "ds-students",
+            "flair_group_id": 294,
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 24024,
+            "username": "23ds3000248",
+            "name": "Bhavin",
+            "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/23ds3000248/{size}/68154_2.png",
+            "primary_group_name": "ds-students",
+            "flair_name": "ds-students",
+            "flair_group_id": 294,
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 16094,
+            "username": "carlton",
+            "name": "Carlton D'Silva",
+            "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/carlton/{size}/56317_2.png",
+            "primary_group_name": "ds-students",
+            "flair_name": "ds-students",
+            "flair_group_id": 294,
+            "trust_level": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": 66109,
+      "title": "Week 4 lecture 2",
+      "fancy_title": "Week 4 lecture 2",
+      "slug": "week-4-lecture-2",
+      "posts_count": 7,
+      "reply_count": 2,
+      "highest_post_number": 7,
+      "image_url": null,
+      "created_at": "2022-09-28T18:26:00.268Z",
+      "last_posted_at": "2022-10-02T10:33:04.758Z",
+      "bumped": true,
+      "bumped_at": "2022-10-02T10:33:04.758Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [
+        "week-4"
+      ],
+      "tags_descriptions": {},
+      "like_count": 2,
+      "views": 53,
+      "category_id": 34,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 431,
+            "username": "Amisha",
+            "name": "AMISHA ASHOK DAS",
+            "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/amisha/{size}/17525_2.png",
+            "primary_group_name": "ds-students",
+            "flair_name": "ds-students",
+            "flair_group_id": 294,
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 6142,
+            "username": "Dixon",
+            "name": "Dixon",
+            "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/dixon/{size}/1027_2.png",
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 12250,
+            "username": "Yash_Kavaiya",
+            "name": "KAVAIYA YASHKUMAR AMRUTLAL",
+            "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/yash_kavaiya/{size}/60168_2.png",
+            "primary_group_name": "ds-students",
+            "flair_name": "ds-students",
+            "flair_group_id": 294,
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user": {
+            "id": 8056,
+            "username": "Puneet_21f3002005",
+            "name": "Puneet ",
+            "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/puneet_21f3002005/{size}/46059_2.png",
+            "primary_group_name": "ds-students",
+            "flair_name": "ds-students",
+            "flair_group_id": 294,
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 9280,
+            "username": "21f3003021",
+            "name": "Nilanjan Dam",
+            "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/21f3003021/{size}/14141_2.png",
+            "primary_group_name": "ds-students",
+            "flair_name": "ds-students",
+            "flair_group_id": 294,
+            "trust_level": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": 140069,
+      "title": "Clarification in Project 1 Q17",
+      "fancy_title": "Clarification in Project 1 Q17",
+      "slug": "clarification-in-project-1-q17",
+      "posts_count": 2,
+      "reply_count": 0,
+      "highest_post_number": 2,
+      "image_url": null,
+      "created_at": "2024-07-16T12:20:59.916Z",
+      "last_posted_at": "2024-07-16T12:29:24.780Z",
+      "bumped": true,
+      "bumped_at": "2024-07-16T12:35:12.395Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [
+        "clarification",
+        "diploma-level"
+      ],
+      "tags_descriptions": {},
+      "like_count": 0,
+      "views": 43,
+      "category_id": 34,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user": {
+            "id": 11920,
+            "username": "22f1001409",
+            "name": "Lokabhiram",
+            "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/22f1001409/{size}/33751_2.png",
+            "primary_group_name": "ds-students",
+            "flair_name": "ds-students",
+            "flair_group_id": 294,
+            "trust_level": 1
+          }
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user": {
+            "id": 16094,
+            "username": "carlton",
+            "name": "Carlton D'Silva",
+            "avatar_template": "/user_avatar/discourse.onlinedegree.iitm.ac.in/carlton/{size}/56317_2.png",
+            "primary_group_name": "ds-students",
+            "flair_name": "ds-students",
+            "flair_group_id": 294,
+            "trust_level": 3
+          }
+        }
+      ]
+    }
+  ]
+}
+```
