@@ -97,10 +97,10 @@ def index():
             answer_text = answer(question,image_file)
         except Exception as e:
             answer_text = f"Error: {e}"
-        with open('input.md', 'w', encoding='utf-8') as file:
+        with open('/tmp/input.md', 'w', encoding='utf-8') as file:
             file.write(answer_text)
-        input_filename = 'input.md'
-        output_filename = 'output.txt'
+        input_filename = '/tmp/input.md'
+        output_filename = '/tmp/output.txt'
 
         with open(input_filename, 'r') as file:
             content = file.read()
@@ -110,7 +110,8 @@ def index():
 
         with open(output_filename, 'w', encoding='utf-8') as file:
             file.write(content_cleaned)
-        return json.loads(content_cleaned)
+        data = json.loads(content_cleaned)
+        return jsonify(data)
     return render_template("index.html", answer=answer_text)
 
 if __name__ == "__main__":
