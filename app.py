@@ -1,12 +1,17 @@
-from flask import Flask, request, render_template, jsonify
+from flask import Flask, json, request, render_template, jsonify
 import os
+import json
 import numpy as np
 import base64
 from PIL import Image
 from io import BytesIO
 import google.generativeai as genai
+from flask_cors import CORS
+
+
 
 app = Flask(__name__)
+cors = CORS(app, resources={r"/api/*": {"origins": "*"}})
 
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
@@ -58,7 +63,7 @@ def generate_llm_response(question: str, context: str = None):
     )
     return response.text
 
-def answer(question: str, context: str = "", image_file=None):
+def answer(question: str,image_file=None):
     # If image is uploaded, convert to base64 and get description
     if image_file and image_file.filename:
         image_bytes = image_file.read()
@@ -67,7 +72,7 @@ def answer(question: str, context: str = "", image_file=None):
         question += f"\n{image_description}"
 
     question_embedding = get_embeddings([question])[0]
-    chunks, embeddings = load_embeddings("embeddings.npz")
+    chunks, embeddings = load_embeddings("embeddings_compressed.npz")
     similarities = np.dot(embeddings, question_embedding) / (
         np.linalg.norm(embeddings, axis=1) * np.linalg.norm(question_embedding)
     )
@@ -75,26 +80,39 @@ def answer(question: str, context: str = "", image_file=None):
     top_chunks = [chunks[i] for i in top_indices]
 
     # Use provided context if available
-    if context:
-        used_context = context
-    else:
-        used_context = "\n\n".join(top_chunks)
+    
+    used_context = "\n\n".join(top_chunks)
 
     response = generate_llm_response(question, context=used_context)
     return response
 
-@app.route("/", methods=["GET", "POST"])
+@app.route("/api", methods=["GET","POST"])
 def index():
     answer_text = None
+    data = {}
     if request.method == "POST":
         question = request.form.get("question", "")
-        context = request.form.get("context", "")
         image_file = request.files.get("image", None)
         try:
-            answer_text = answer(question, context, image_file)
+            answer_text = answer(question,image_file)
         except Exception as e:
             answer_text = f"Error: {e}"
+        with open('input.md', 'w', encoding='utf-8') as file:
+            file.write(answer_text)
+        input_filename = 'input.md'
+        output_filename = 'output.txt'
+
+        with open(input_filename, 'r') as file:
+            content = file.read()
+
+        # Remove all occurrences of '`' and 'json'
+        content_cleaned = content.replace('`', '').replace('json', '')
+
+        with open(output_filename, 'w', encoding='utf-8') as file:
+            file.write(content_cleaned)
+        return json.loads(content_cleaned)
     return render_template("index.html", answer=answer_text)
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=8000)
+    port = int(os.environ.get("PORT", 10000))
+    app.run(host="0.0.0.0", port=port)
